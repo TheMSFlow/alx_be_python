@@ -1,10 +1,10 @@
-task = input("Add a task description: ")
-priority = input("What's the task's priority? (high, medium, low): ")
+task = input("Enter your task: ")
+priority = input("What's the task's priority? (high/medium/low): ")
 match priority:
     case _:
         print("Your selection is not among the list (high/medium/low)")
-        priority = input("What's the task's priority? (high, medium, low): ")
-time_bound = input("Is this task time bound? (yes or no): ")
+        priority = input("What's the task's priority? (high/medium/low): ")
+time_bound = input("Is it time bound? (yes or no): ")
 
 match priority:
     case "high":
