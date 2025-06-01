@@ -1,10 +1,10 @@
 task = input("Enter your task: ")
-priority = input("What's the task's priority? (high/medium/low): ")
+priority = input("Priority (high/medium/low): ")
 match priority:
     case _:
         print("Your selection is not among the list (high/medium/low)")
         priority = input("What's the task's priority? (high/medium/low): ")
-time_bound = input("Is it time bound? (yes or no): ")
+time_bound = input("Is it time-bound? (yes/no): ")
 
 match priority:
     case "high":
